@@ -1,0 +1,7 @@
+from random import randint
+
+mon = ['решка', 'орёл']
+def monet():
+    x = randint(0,1)
+    z = mon[x]
+    return z
